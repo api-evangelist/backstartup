@@ -1,19 +1,53 @@
 aid: backstartup
 name: Backstartup
-description: Backstartup is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Backstartup is a Colombian tech-enabled accounting and legal services firm for
+  startups and small businesses (notably SAS entities). It automated company
+  formation, bookkeeping, tax filing, payroll, and legal/DIAN compliance for
+  founders in Latin America. Backstartup has since been integrated into Numbi
+  (numbi.ai), a tech-enabled accounting firm that operates monthly bookkeeping,
+  taxes, payroll, and DIAN compliance on top of the accounting systems companies
+  already use (Siigo and Alegra), pairing expert accountants with automation and
+  AI. Backstartup's legacy domain (backstartup.com) now redirects to numbi.ai and
+  Backstartup operates as a sub-organization within Numbi's Colombia operation.
+  This is a services-company profile: no public developer API or OpenAPI is
+  published. It entered the API Evangelist network as a 500 Global portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/backstartup/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://numbi.ai/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-successor: numbi
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Accounting
+- Legal
+- Compliance
+- Startups
+- Small Business
+- Fintech
+- Payroll
+- Bookkeeping
+- Colombia
+- Latin America
+- Taxes
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +56,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://backstartup.com
+  url: https://numbi.ai
+- type: Blog
+  url: https://numbi.ai/blog
+- type: Support
+  url: https://numbi.ai/preguntas-frecuentes
+- type: TermsOfService
+  url: https://numbi.ai/terminos
+- type: PrivacyPolicy
+  url: https://numbi.ai/privacidad
+- type: GitHubOrganization
+  url: https://github.com/backstartup
+- type: LinkedIn
+  url: https://www.linkedin.com/company/numbiai
+- type: X
+  url: https://twitter.com/numbi_ai
+- type: LLMsTxt
+  url: llms/backstartup-llms.txt
+- type: Packages
+  url: packages/backstartup-packages.yml
+- type: DomainSecurity
+  url: security/backstartup-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

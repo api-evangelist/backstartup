@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/backstartup
+note: >-
+  Backstartup (now integrated into Numbi) publishes no client SDK for a public
+  API — it is a tech-enabled accounting/legal services firm, not an API product.
+  The only first-party open-source library published on its GitHub org is a
+  narrow utility for bulk-downloading Mexican CFDI tax documents from the SAT web
+  service. It is a source library, NOT a client SDK for a Backstartup API, so no
+  `SDKs` rating pointer is emitted.
+packages:
+  - language: python
+    registry: github
+    name: bsu-cfdi-mx-33
+    url: https://github.com/backstartup/bsu-cfdi-mx-33
+    description: >-
+      Library to perform bulk download of CFDIs (Comprobante Fiscal Digital por
+      Internet) through Mexico's SAT web service.
+    install: pip install git+https://github.com/backstartup/bsu-cfdi-mx-33
+    official: true
+    last_pushed: '2019-04-23'
